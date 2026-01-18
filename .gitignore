@@ -1,0 +1,13 @@
+# Ignore Mac/Windows junk
+.DS_Store
+Thumbs.db
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Virtual Environments (Very Important!)
+.venv/
+venv/
+env/
+.vscode/
