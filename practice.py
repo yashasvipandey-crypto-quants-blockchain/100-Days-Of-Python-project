@@ -33,3 +33,36 @@ import random
 # print(num)
 # dirty_dozen = [fruits, vegetables]
 # print(dirty_dozen[1][1])
+
+# fruits =["apple","peach","pear"]
+# for fruits in fruits:
+#     print(fruits)   
+#     print(fruits+"pie")
+# student_score=[150,450,200,800,623,456,]
+# total=sum(student_score)
+# print(total)
+# sum=0
+# for score in student_score:
+#     sum+=score
+#     print(sum)
+# max_score=0
+# for score in student_score:
+#     if score>max_score:
+#         max_score=score
+# print(max_score)
+#range
+# for number in range(0,10,2):
+#     print(number)
+# total=0
+# for number in range(1,100):
+#    total+=number
+# print(total)
+for number in range(1,101):
+    if number%15==0:
+        print("FizzBuzz")
+    elif number%3==0:
+        print("Fizz")
+    elif number%5==0:
+        print("Buzz")
+    else:
+        print(number)
