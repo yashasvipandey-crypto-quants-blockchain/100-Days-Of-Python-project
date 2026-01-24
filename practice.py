@@ -57,12 +57,12 @@ import random
 # for number in range(1,100):
 #    total+=number
 # print(total)
-for number in range(1,101):
-    if number%15==0:
-        print("FizzBuzz")
-    elif number%3==0:
-        print("Fizz")
-    elif number%5==0:
-        print("Buzz")
-    else:
-        print(number)
+# for number in range(1,101):
+#     if number%15==0:
+#         print("FizzBuzz")
+#     elif number%3==0:
+#         print("Fizz")
+#     elif number%5==0:
+#         print("Buzz")
+#     else:
+#         print(number)
