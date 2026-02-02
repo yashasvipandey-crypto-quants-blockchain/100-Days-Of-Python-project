@@ -66,3 +66,53 @@ import random
 #         print("Buzz")
 #     else:
 #         print(number)
+
+
+
+# word_list =["aadvark","baboon","camel"]
+# x=random.choice(word_list)
+
+# word_len=len(x)
+
+# holderplace=""
+
+# for under in range(word_len):
+
+#     holderplace += "_"
+
+# print(holderplace) 
+# game_over=False 
+# correct=[]
+# display="_"*len(X)
+# while not game_over:
+#     y=str(input("guess the letter: ")).lower()
+    
+#     for word in x:
+    
+#         if word==y:
+#             display += word
+#             correct.append(word)
+#         elif word in correct:
+#             display+=word
+    
+#         else:
+#             display +="_"
+
+#     print(correct)
+    
+#     if "_" not in display:
+#         game_over=True
+#         print("you win")
+
+# def greet():
+#     print("hello")
+#     print("how do you do")
+
+# greet()
+def greet(name,location ):
+    print (f"hello {name}")
+    print(f"what is like to be {location}")
+    
+# greet("muk","saharanpur")
+greet(location="sarahanpur",name="muk")
+
