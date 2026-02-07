@@ -109,10 +109,41 @@ import random
 #     print("how do you do")
 
 # greet()
-def greet(name,location ):
-    print (f"hello {name}")
-    print(f"what is like to be {location}")
+# def greet(name,location ):
+#     print (f"hello {name}")
+#     print(f"what is like to be {location}")
     
-# greet("muk","saharanpur")
-greet(location="sarahanpur",name="muk")
+# # greet("muk","saharanpur")
+# greet(location="sarahanpur",name="muk")
 
+# programming_dictionary = {"Bug": "An error in a program that prevents the program from running as expected.", "Function": "A piece of code that you can easily call over and over again."}
+# # print(programming_dictionary["Bug"])
+
+
+# programming_dictionary["loop"]="hellow yr"
+# # print(programming_dictionary["loop"])
+# # for thing in programming_dictionary:
+# #     print (thing)
+# #     print(programming_dictionary[thing])
+# capitals ={
+#     "france":"paris",
+#     "germany":"berlin"
+# }
+# travel={
+#     "france":["paris","lille"],
+#     "germany":["berline","stuttgart"]
+# }
+# print(travel["france"][1])
+# nested_list = ["A", "B", ["C", "D"]]
+# print(nested_list[2])
+# travel_log = {
+#   "France": {
+#     "cities_visited": ["Paris", "Lille", "Dijon"], 
+#     "total_visits": 12
+#    },
+#   "Germany": {
+#     "cities_visited": ["Berlin", "Hamburg", "Stuttgart"], 
+#     "total_visits": 5
+#    },
+# }
+# print(travel_log["France"]["cities_visited"][1])
