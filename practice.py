@@ -147,3 +147,9 @@ import random
 #    },
 # }
 # print(travel_log["France"]["cities_visited"][1])
+
+# def format(f_name,l_name):
+#     print( f_name.title())
+#     print(l_name.title())
+# format("angela","shukla")
+
