@@ -153,3 +153,34 @@ import random
 #     print(l_name.title())
 # format("angela","shukla")
 
+# list=[]
+# for values in range(1,11):
+#     square=values**2
+#     list.append(square)
+# print(list)
+# list1=['dtbeb','rgve','rever','regv']
+# list2=['etg','ergerg','ergs','ergerg,']
+# list3=list2[:]
+# print(list3)
+
+# x,y=input("enter two  number: ").split()
+# print(x,y)
+# student ={
+#     "name":"hellow",
+#     "subjects":"maths"
+# }
+# my_dic={
+#     "pop":"reya"
+# }
+# student.update(my_dic)
+# print(student)
+# print(student.get("name"))
+# print(student.items())
+# nums={1,2,3,5,8}
+# ray={}
+# ray=set()
+# print( type(ray))
+# nums.add(9) 
+# nums.pop( )
+# print(nums)
+
