@@ -43,28 +43,20 @@ while game_should_continue == True:
     print(f"score {count}")
     x = input("type 'A' or 'B': ").upper()
 
-    result = checker(x)
-
-    if result == True:
-        count += 1
-        compare_A = compare_B
-        compare_B = random.choice(data.data)
+    # input validation
+    if x != 'A' and x != 'B':
+        print("Invalid input! Game over.")
+        print(f"final score {count}")
+        game_should_continue = False
 
     else:
-        print(f"gameover with score {count}")
-        game_should_continue = False
-       
+        result = checker(x)
 
+        if result == True:
+            count += 1
+            compare_A = compare_B
+            compare_B = random.choice(data.data)
 
-
-
-while game_should_continue==True:
-    
-    print(art.logo)
-    a()
-    print(art.vs)
-    b()
-    print(f"score {count}")
-    x=input("type 'A' or 'B': " )
-    checker(x)
-    
+        else:
+            print(f"gameover with score {count}")
+            game_should_continue = False
