@@ -120,7 +120,7 @@ while should_continue == True:
 
     MENU_choice(choice1)
 
-    # ✅ separate flag (IMPORTANT FIX)
+    #  separate flag (IMPORTANT FIX)
     enough_resources = True
 
     if "water" in data.MENU[choice1]["ingredients"]:
@@ -151,7 +151,7 @@ while should_continue == True:
     if payment == False:
         continue
 
-    # ✅ subtract AFTER payment
+    #  subtract AFTER payment
     if "water" in data.MENU[choice1]["ingredients"]:
         data.resources["water"] -= data.MENU[choice1]["ingredients"]["water"]
 
