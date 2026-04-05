@@ -107,11 +107,13 @@ def coins_calc(quarters, dimes, nickles, pennies, choice):
 
 
 while should_continue == True:
-
+    
     print(data.resources)
 
     choice1 = input("what would you like to have: ").lower()
-
+    if choice1=="off":
+        should_continue=False
+        continue
     if choice1 not in data.MENU:
         print("invalid choice")
         continue
@@ -159,4 +161,4 @@ while should_continue == True:
     if "milk" in data.MENU[choice1]["ingredients"]:
         data.resources["milk"] -= data.MENU[choice1]["ingredients"]["milk"]
 
-    print(f"here is your {choice1}")
+    print(f"here is your {choice1} enjoy")
