@@ -1,3 +1,4 @@
+import pandas as pd 
 import random
 # import pracice
 
@@ -184,3 +185,19 @@ import random
 # nums.pop( )
 # print(nums)
 
+
+
+# x=[3,4,6,8,5,9,2]
+# var=pd.Series(x,index=["a","b","c","d","e","f","g"])
+# print(var)
+# print(type(var))
+
+l=[1,2,3,5,8,9,4,6]
+var=pd.DataFrame(l)
+print(var)
+print(type(var))
+
+d={"A":[1,2,5,6,7],"s":[1,5,8,9,6]}
+var1=pd.DataFrame(d)
+print(var1)
+  
